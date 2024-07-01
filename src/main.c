@@ -65,8 +65,8 @@ void setup(void) {
     ball.y = 20;
     ball.width = 15;
     ball.height = 15;
-    ball.dx = 5;
-    ball.dy = 5;
+    ball.dx = 50;
+    ball.dy = 50;
 }
 
 void update(void) {
@@ -77,6 +77,8 @@ void update(void) {
     }
 
     float delta_time = (SDL_GetTicks() - last_frame_time) / 1000.0f; // amount of time elapsed since the last frame
+
+    last_frame_time = SDL_GetTicks();
 
     if (ball.x >= SCREEN_WIDTH - ball.width || ball.x <= 0) {
         ball.dx *= -1;
