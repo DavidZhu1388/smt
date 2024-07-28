@@ -2,6 +2,8 @@
 // #include <SDL2/SDL.h>
 // #include "./constants.h"
 
+// -lSDL2 -lSDL2_image -lSDL2_ttf
+
 // SDL_Window *window = NULL;
 // SDL_Renderer *renderer = NULL;
 // int game_is_running = FALSE;

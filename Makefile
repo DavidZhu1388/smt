@@ -1,5 +1,5 @@
 build:
-	gcc -Wall -std=c99 ./src/*.c -lSDL2 -lSDL2_image -lSDL2_ttf -o main
+	gcc -Wall -std=c99 ./src/*.c -o main
 
 run:
 	./main
