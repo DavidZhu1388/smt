@@ -1,8 +1,8 @@
 build:
-	gcc -Wall -std=c99 ./src/*.c -o main
+	gcc -Wall -std=c99 ./src/*.c -o kilo
 
 run:
-	./main
+	./kilo
 
 clean:
 	rm main
