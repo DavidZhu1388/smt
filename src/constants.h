@@ -1,6 +1,7 @@
-#define ABUF_INIT \
-    {             \
-        NULL, 0}
+// constants.h
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
 #define KILO_VERSION "0.0.1"
 #define CTRL_KEY(k) ((k) & 0x1f)
 
@@ -14,5 +15,7 @@ enum editorKey
     HOME_KEY,
     END_KEY,
     PAGE_UP,
-    PAGE_DOWN,
+    PAGE_DOWN
 };
+
+#endif // CONSTANTS_H
