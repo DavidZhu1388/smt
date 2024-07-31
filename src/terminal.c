@@ -1,13 +1,5 @@
 // terminal.c
 #include "terminal.h"
-#include <ctype.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <unistd.h>
-#include <termios.h>
-#include <errno.h>
-#include <string.h>
-#include <sys/ioctl.h>
 #include "editor.h" // For the editorConfig struct and die function
 #include "constants.h" // For the editorKey enum
 

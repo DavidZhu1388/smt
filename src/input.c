@@ -3,8 +3,6 @@
 #include "editor.h"
 #include "terminal.h"
 #include "constants.h"
-#include <unistd.h>
-#include <stdlib.h>
 
 void editorMoveCursor(int key) {
     switch (key) {

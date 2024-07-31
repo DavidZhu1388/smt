@@ -2,6 +2,14 @@
 #ifndef TERMINAL_H
 #define TERMINAL_H
 
+#include <ctype.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <termios.h>
+#include <errno.h>
+#include <string.h>
+#include <sys/ioctl.h>
 
 void die(const char *s);
 void enableRawMode();

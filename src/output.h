@@ -2,6 +2,11 @@
 #ifndef OUTPUT_H
 #define OUTPUT_H
 
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <stdio.h>
+
 #define ABUF_INIT {NULL, 0}
 
 struct abuf {
